@@ -1,5 +1,8 @@
 (function ($) {
-	
+	// Page loading animation
+	 $(window).on('load', function() {
+
+        $('#js-preloader').addClass('loaded');
 	"use strict";
 
 	$('.owl-show-events').owlCarousel({
@@ -98,10 +101,7 @@
 	}
 
 
-	// Page loading animation
-	 $(window).on('load', function() {
-
-        $('#js-preloader').addClass('loaded');
+	
 
     });
 
